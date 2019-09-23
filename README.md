@@ -1,17 +1,22 @@
 # login
 Sistema de Login em PHP e Javascript
 
+# aula 01 - 23/09/2019
+🌺Começou a primavera🌺]
+Aula inicial, configuraçao do projeto no Github
+E criaçao do passo a passo.
+
 ...
 # Passo a passo em todo inicio de aula
 
 ## Habilitar o Proxy
-Tecla Windows - Abrir a janela Prompt de Comando
-Copie e cole a linha abaixo - selecione e pressione as teclas Ctrl C
+-Tecla Windows - Abrir a janela Prompt de Comando
+-Copie e cole a linha abaixo - selecione e pressione as teclas Ctrl C
 
 git config --global http.proxy http://10.1.21.254:3128
 
-cole no prompt de comando e 
-Pressione Enter
+-cole no prompt de comando e 
+-Pressione Enter
 
 ## Clonar o repositorio **login** na pasta **c:\xampp\htdocs**
 -tecla windows - abrir Github desktop
@@ -30,7 +35,7 @@ Pressione Enter
 -Verifique se apareceu a porta 80 apache e 3306 MySQL 
 -verifique se ficou verde e Apache e MySQL
 
-## TESTAR SE TA FUNCIONANDO
+## Testar se ta funcionando
 -abra o navegador FireFox azul e digite http://localhost/login
 
 ## Edital utilizando o VS code
