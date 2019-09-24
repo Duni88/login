@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="pt-br">
-     <!--
+<!--
          Para acessar o projeto, habilite o apache no XAMPP 
          abra a URL http://localhost/login/
       -->
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,31 +17,66 @@
 </head>
 
 <body class="bg-dark">
-<main class="container mt-4">
-    <section class="row">
-      <div class="col-lg-4 offset-lg-4" id="alerta">
-          <div class="alert alert-success text-center">
-              <strong class="resultaddo">
-                  Alo Ha Tchurmaaaaaaaaaaa !
-              </strong>
+    <main class="container mt-4">
+        <section class="row">
+            <div class="col-lg-4 offset-lg-4" id="alerta">
+                <div class="alert alert-success text-center">
+                    <strong class="resultaddo">
+                        Alo Ha Tchurmaaaaaaaaaaa !
+                    </strong>
 
-          </div>
-      </div>
-    </section>
-    <!-- formulario de login -->
-    <section class="row">
-        <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixalogin">
-            <h2 class="text-center mt-2"> 
-                  Entrar no Sistema
-            </h2>
-               <form action="#" method="post" class="p-2" id="formlogin"></form>
-               <div class="form-group">
-                   <input type="text" name="" id="">
+                </div>
+            </div>
+        </section>
+        <!-- formulario de login -->
+        <section class="row">
+            <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixalogin">
+                <h2 class="text-center mt-2">
+                    Entrar no Sistema
+                </h2>
+                <form action="#" method="post" class="p-2" id="formlogin"></form>
+                <div class="form-group">
+                    <input type="text" name="nomeUsuario" 
+                    id="nomeUsuario" placeholder="Nome de Usuario" class="form-control">
+                </div>
 
-               </div>
-        </div>
-    </section>
-</main>
+                      <div class="form-group">
+                          <input type="password" name="senhaUsuario"
+                          id="senhaUsuario" placeholder="Senha"
+                          class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" name="lembrar" 
+                            id="lembrar" class="custon-control-input">
+                            <label for="lembrar" class="custon-control-label">
+                                Lembrar de mim.
+                            </label>
+
+                            <a href= "#" class="float-right" id="btnEsqueci">
+                                      Esqueci a senha!
+                               </a>
+                          </div>
+
+                      </div>
+
+                        <div class="form-group">
+                             <input type="submit" value="::Entrar::"
+                             name="btnEntrar" id="btnEntrar"
+                             class="btn btn-primary btn-block">
+                        </div>
+                          <div class="form-group">
+                            <p>
+                                Novo usuario? <a href="#" id="btnRegistrar">
+                                Registre-se aqui!
+                              </a>
+                            </p>
+                          </div>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
