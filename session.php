@@ -15,6 +15,11 @@ if(isset($_SESSION['nomeDoUsuario'])){
     $nomeCompleto = $linha['nomeCompleto'];
     $emailUsuario = $linha['emailUsuario'];
     $dataCriado = $linha['dataCriado'];
+
+
+    //conversao de data
+    $dataCriado = date('d/m/Y', strtotime($dataCriado));
+
 }else{
     //se nao tiver logado, redirecionar para index
     header("location: index.php");
